@@ -1315,3 +1315,36 @@
     height: 100%;
     object-fit: cover;
 }
+
+/** Products section Start ***/
+.products .card .image-wraper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px
+}
+
+@media (max-width: 375px) {
+    .products .card .image-wraper {
+        height: 220px;
+    }
+}
+
+@media (min-width: 481px) {
+    .products .card .image-wraper {
+        height: 330px;
+    }
+}
+
+@media (min-width: 576px) {
+    .products .card .image-wraper {
+        height: 220px;
+    }
+}
+
+@media (min-width: 992px) {
+    .products .card .image-wraper {
+        height: 300px;
+    }
+}
+/** Products section End ***/
